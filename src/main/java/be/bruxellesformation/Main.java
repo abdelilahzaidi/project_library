@@ -1,6 +1,8 @@
 package be.bruxellesformation;
 
 import java.sql.SQLOutput;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -8,8 +10,18 @@ import java.util.Scanner;
 public class Main {
     static String author = "";
     static String title = "";
+    static String firstName= "";
+    static  String lastName="";
+
+    static LocalDate dateBorrow;
+   static LocalDate dateReturn;
+
+   static User borrower;
+    static Book livre =new Book(author, title);
     static Scanner scan = new Scanner(System.in);
     static Library library = new Library();
+    static ArrayList<Book> livres = new ArrayList<>();
+    static Rent rent=new Rent(borrower,livres,dateReturn,  dateBorrow);
     public static void main(String[] args) {
         menu();
 
@@ -18,6 +30,8 @@ public class Main {
 
     public static void menu(){
 
+        library.addBook(new Book("JK", "HP"));
+        library.addBook(new Book("Tolkien", "Seigneur des anneaux"));
 
         System.out.println("Bonjour, Que souhaitez vous faire ?");
         System.out.println("1. Ajouter un livre");
@@ -27,7 +41,7 @@ public class Main {
         System.out.println("5. Emprunter un livre");
         System.out.println("6. Rendre un livre");
 
-        String option = scan.next();
+        String option = scan.nextLine();
 
         switch (option){
             case "1":
@@ -79,19 +93,61 @@ public class Main {
     }
 
     public static void borrowBook(){
-        entry();
-        library.borrowBook(new Book(author, title));
+        //library.borrowBook(new Book(author, title,borrower,dateBorrow,dateReturn));
+        entry_book_borrok();
+        library.borrowBooks(borrower,dateBorrow,dateReturn,livres);
     }
 
     public static void returnBook(){
-        entry();
-        library.returnBook(new Book(author,title));
+        entry_book();
+        library.returnBook(new Book(author, title));
     }
-
     public static void entry(){
         System.out.println("Veuillez entrer le titre");
-        title = scan.next();
+        title = scan.nextLine();
         System.out.println("Veuillez entrer l'auteur");
-        author = scan.next();
+        author = scan.nextLine();
+    }
+
+    public static void entry_book(){
+        System.out.println("Veuillez entrer le titre");
+        title = scan.nextLine();
+        System.out.println("Veuillez entrer l'auteur");
+        author = scan.nextLine();
+        System.out.println("Veuillez entrer le nom");
+        firstName = scan.nextLine();
+        System.out.println("Veuillez entrer le prenom");
+        lastName = scan.nextLine();
+        System.out.println("Veuillez entrer la date d'emprunt");
+        dateBorrow=LocalDate.parse(scan.nextLine());
+        System.out.println("Veuillez entrer la date de retour");
+        dateReturn=LocalDate.parse(scan.nextLine());
+    }
+    public static void entry_book_borrok(){
+        System.out.println("Veuillez entrer le nom");
+        firstName = scan.nextLine();
+        System.out.println("Veuillez entrer le prenom");
+        lastName = scan.nextLine();
+        borrower = new User(firstName, lastName);
+        System.out.println("Veuillez entrer la date d'emprunt");
+        dateBorrow=LocalDate.parse(scan.nextLine());
+        System.out.println("Veuillez entrer la date de retour");
+        dateReturn=LocalDate.parse(scan.nextLine());
+        System.out.println("Veuillez entrer les titres séparé par des virgules");
+        title = scan.nextLine();
+
+        String[] titles = title.split(",");
+
+        for (String t : titles) {
+            for (Book book : library.books) {
+                if (book.getTitle().equals(t)) {
+                    livres.add(book);
+                }
+            }
+        }
+
+//        while(title !="*"){
+//            library.addBook(new Book(author, title));
+//        }
     }
 }
