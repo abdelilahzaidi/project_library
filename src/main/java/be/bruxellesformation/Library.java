@@ -50,4 +50,11 @@ public class Library {
         return books.size();
     }
 
+    public void addBooksFromFile(String content){
+        String [] tmp = content.split("\n");
+        for (String element: tmp) {
+            String [] tmp2 = element.split(";");
+            addBook(new Book(tmp2[1], tmp2[0]));
+        }
+    }
 }

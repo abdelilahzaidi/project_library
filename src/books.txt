@@ -1,0 +1,100 @@
+Ender’s Game;Orson Scott Card
+The Hound of the Baskervilles;Sir Arthur Conan Doyle
+Do Androids Dream of Electric Sheep?;Philip K. Dick
+Murder on the Orient Express;Agatha Christie
+Mystic River;Dennis Lehane
+Nineteen Eighty-Four;George Orwell
+Angels and Demons;Dan Brown
+The Maltese Falcon;Dashiell Hammett
+The Silence of the Lambs;Thomas Harris
+The Ultimate Hitchhiker’s Guide;Douglas Adams
+The Da Vinci Code;Dan Brown
+The Godfather;Mario Puzo
+Frankenstein;Mary Shelley
+The Handmaid’s Tale;Margaret Atwood
+The Martian;Andy Weir
+A Wrinkle in Time;Madeleine L’Engle
+Jurassic Park;Michael Crichton
+Fahrenheit 451;by Ray Bradbury
+Dark Matter;Blake Crouch
+Dune;Frank Herbert
+And Then There Were None;Agatha Christie
+The Lord of the Rings Trilogy;J. R. R. Tolkien
+Harry Potter series;J. K Rowling
+A Song of Ice and Fire series;George R.R. Martin
+His Dark Materials;Philip Pullman
+Mistborn series;Brandon Sanderson
+Tolkien’s The Hobbit; J. R. R.
+The Way of Shadows;Brent Weeks
+The Kingkiller Chronicle;Patrick Rothfuss
+The Witcher series;Andrzej Sapkowski
+The Graveyard Book;Neil Gaiman
+Don Quixote;Miguel de Cervantes
+Dracula;Bram Stoker
+The Count of Monte Cristo;Alexandre Dumas
+David Copperfield;Charles Dickens
+Jane Eyre;Charlotte Bronte
+A Tale of Two Cities;Charles Dickens
+Anna Karenina;Leo Tolstoy
+The Brothers Karamazov;Fyodor Dostoyevsky
+The Adventures of Huckleberry Finn;Mark Twain
+The Picture of Dorian Gray;Oscar Wilde
+Ulysses;James Joyce
+The Great Gatsby;F. Scott Fitzgerald
+The Catcher in the Rye;J. D. Salinger
+Lord of the Flies;William Golding
+The Book Thief;Markus Zuzaf
+The Secret History;Donna Tartt
+To Kill a Mockingbird;Harper Lee
+Catch-22;Joseph Heller
+One Hundred Years of Solitude;Gabriel Garcia Marquez
+Animal Farm;George Orwell 
+The Grapes of Wrath;John Steinbeck 
+Gone with the Wind;Margaret Mitchell 
+One Flew Over the Cuckoo’s Nest;Ken Kesey 
+The Sound and the Fury;William Faulkner 
+Watership Down;Richards Adams
+The Kite Runner;Khaled Hosseini
+The Hunger Games;Suzanne Collins
+American Gods;Neil Gaiman
+Slaughterhouse-Five;Kurt Vonnegut
+The Sun Also Rises;Ernest Hemingway
+Heart of Darkness;Joseph Conrad
+Brave New World;Aldous Huxley
+Call of the Wild;Jack London
+Mrs. Dalloway;Virginia Woolf
+Pride and Prejudice;Jane Austen
+Beloved;Toni Morrison
+Wuthering Heights;Emily Brontë
+Song of Solomon;Toni Morrison
+For Whom the Bell Tolls;Ernest Hemingway
+In Cold Blood;Truman Capote
+Native Son;Richard Wright
+The Alchemist;Paulo Coelho
+Interpreter of Maladies;Jhumpa Lahiri
+A Tree Grows in Brooklyn;Betty Smith
+Jackson and the Olympians series; Rick Riordan
+The Little Prince;Antoine de Saint-Exupéry
+The Poisonwood Bible: A Novel;Barbara Kingsolver
+The Outsiders;S. E Hinton
+Where the Wild Things Are;Maurice Sendak
+A Wizard of Earthsea;Ursula K. Le Guin
+Gilead;Marilynne Robinson
+One Thousand and One Nights;ANon
+The Metamorphosis;Franz Kafka
+The Devil in the White City;Erik Larson
+78. Tinker, Tailor, Soldier, Spy;John le Carré
+The Strange Case of Dr. Jekyll and Mr. Hyde;Robert Louis Stevenson
+Journey to the Center of the Earth;Jules Verne,
+Treasure Island;Robert Louis Stevenson
+A Clockwork Orange;Anthony Burgess
+Alice’s Adventures In Wonderland;Lewis Carroll
+Moby-Dick;Herman Melville
+Crime and Punishment;Fyodor Dostoyevsky
+Invisible Man;Ralph Ellison
+The Stranger;Albert Camus
+Great Expectations;Charles Dickens
+Middlemarch;George Eliot
+Gulliver’s Travels;Jonathan Swift
+Charlotte’s Web;E. B. White 
+Charlie And The Chocolate Factory;Roald Dahl

@@ -1,6 +1,5 @@
 package be.bruxellesformation;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -10,16 +9,19 @@ public class Main {
     static String title = "";
     static Scanner scan = new Scanner(System.in);
     static Library library = new Library();
-    public static void main(String[] args) {
-        menu();
 
+    static FileReader fileReader = new FileReader("src/books.txt");
+    public static void main(String[] args){
+        library.addBooksFromFile(fileReader.read());
+        menu();
     }
 
 
     public static void menu(){
 
-
-        System.out.println("Bonjour, Que souhaitez vous faire ?");
+        System.out.println("Bonjour et bienvenue à la bibliothèque de DigitalCity");
+        System.out.println("Il y a plus de " + library.getNumberBook() + " livres à emprunter ou consulter");
+        System.out.println("Que souhaitez vous faire ?");
         System.out.println("1. Ajouter un livre");
         System.out.println("2. Supprimer un livre");
         System.out.println("3. Afficher tous les livres");
@@ -27,7 +29,7 @@ public class Main {
         System.out.println("5. Emprunter un livre");
         System.out.println("6. Rendre un livre");
 
-        String option = scan.next();
+        String option = scan.nextLine();
 
         switch (option){
             case "1":
@@ -90,8 +92,8 @@ public class Main {
 
     public static void entry(){
         System.out.println("Veuillez entrer le titre");
-        title = scan.next();
+        title = scan.nextLine();
         System.out.println("Veuillez entrer l'auteur");
-        author = scan.next();
+        author = scan.nextLine();
     }
 }
