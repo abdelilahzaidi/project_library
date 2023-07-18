@@ -9,8 +9,10 @@ public class Main {
     static String title = "";
     static Scanner scan = new Scanner(System.in);
     static Library library = new Library();
-
+    static Library libraryULB = new Library();
     static FileReader fileReader = new FileReader("src/books.txt");
+
+    
     public static void main(String[] args){
         library.addBooksFromFile(fileReader.read());
         menu();
@@ -96,4 +98,5 @@ public class Main {
         System.out.println("Veuillez entrer l'auteur");
         author = scan.nextLine();
     }
+
 }
